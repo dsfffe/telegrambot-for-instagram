@@ -2,6 +2,15 @@
 
 This telegram bot is used for downloading public posts from instagram and everyone's DP. (Private Profile pictures also)
 
+# PS : Bot is Not Working!
+##### Why?
+- Instagram requries **_User_** to be signed in to view any profile or post.
+#### What we can do?
+- We need to first signIn to instagram using _urllib.request_
+- We need to save our session
+- Then bot can extract profile data.
+
+
 ### Before deploying to heroku Create your bot using Telegram:
     Note : BotFather is telegrams official bot to create other bots.
 * Send /newbot command to [@BotFather](https://t.me/BotFather)
